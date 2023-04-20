@@ -8,6 +8,8 @@ class Solution {
         
         int ans=INT_MAX;
         
+      
+        int a=1;
         for(int i=0;i<N;i++)
         {
             if(sum<=(long long)arr[i]*(long long)N)
